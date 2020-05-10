@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>IRMS-portal/assets/icon/search</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="All-final-pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage_search_dropdown" transform="translate(-440.000000, -261.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Search" transform="translate(420.000000, 241.000000)">
+                <g id="placeholder" transform="translate(20.000000, 18.000000)">
+                    <g id="IRMS-portal/assets/icon/search" transform="translate(0.000000, 2.000000)">
+                        <path d="M6.33333333,12.6673333 C7.83966667,12.6673333 9.22366667,12.1366667 10.312,11.255 L15.0336667,15.9766667 L15.9766667,15.034 L11.2546667,10.3123333 C12.136,9.224 12.6666667,7.84033333 12.6666667,6.334 C12.6666667,2.84166667 9.82566667,0.000666666667 6.33333333,0.000666666667 C2.841,0.000666666667 0,2.84166667 0,6.334 C0,9.82633333 2.841,12.6673333 6.33333333,12.6673333 Z M6.33333333,0.667333333 C9.458,0.667333333 12,3.20933333 12,6.334 C12,9.45866667 9.458,12.0006667 6.33333333,12.0006667 C3.20866667,12.0006667 0.666666667,9.45866667 0.666666667,6.334 C0.666666667,3.20933333 3.20866667,0.667333333 6.33333333,0.667333333 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

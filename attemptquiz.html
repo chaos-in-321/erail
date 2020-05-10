@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="indianrail.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script>
+			$("a[href*='" + location.pathname + "']").addClass("current");
+		</script>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="header" style="background-color:#0f61b7;padding-right:1%;padding-top:1%;padding-bottom:1%;">
+				<div class="float-left" style="width:auto;padding-top:1%"><img src="img/header.png"></img>
+				</div>
+
+					<div class="nav">
+						<div class="float-right" style="color:#ffff">
+							<ul style="margin-left:27%">
+								<li style="padding:none"><input type="text" style="font-family: FontAwesome, Arial; font-style: normal ;color: white;border-radius: 3px;border: solid 1px #ffffff;margin-left;padding-right:6%;padding-left: 6%;padding-top: 1%;padding-bottom: 1%;background-color:transparent;" placeholder="   &#xf002; Search Blog" ></input></li>
+								<li style="padding-left:1%"><img src="img/home.png" style="padding-right:1%;padding-left:1%"></img><a href="index" class="current">Home</a></li>
+								<li style="padding-left:1%"><img src="img/browse.png" style="padding-right:1%;padding-left:1%"></img><a>Browse All</a></li>
+								<li style="padding-left:1%"><img src="img/quiz.png" style="padding-right:1%;padding-left:1%"></img><a href="attemptquiz">Attempt quiz</a></li>
+								<li style="padding-left:9%"><a class="current" style="font-size:18px" href="profile">Ranjit</a><img src="img/avatar-62.png" style="padding-right:1%;padding-left:1%;height:36px;width:auto;"></img></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="bread">
+				<span class="current">Home</span>
+				<span><img src="img/right-arrow.png"></span>
+				<span style="opacity:1">Attempt Quiz</span>
+			</div>
+		</div>
+		<div class="row">
+			<div class="quiz_head" style="white-space:nowrap;">
+				<a>3 phase induction motor</a>
+				<a>DC Series Motor</a>
+				<a>DC Shunt Motor</a>
+				<a>Compound motors</a>
+				<a>Separately excited motor</a>
+				<a>AC series motors</a>
+			</div>
+		</div>
+		<div class="row">
+			 <div class="category" style="white-space:nowrap;">
+				 	<div class="col-sm-3">
+			    	 <div class="cat_card">
+							 <div class="row">
+									<div class="cat_head">
+										<p>Assembling</p>
+										<img src="img/lessons@2x.png"></img>
+										<h4>14 Sub-procedures</h4>
+										<br></br>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-6">
+										<button class="button_blue" style="margin-left:8%;  font-size: 12px;  text-align: center;padding-top: 2%;padding-bottom: 2%;padding-left: 4%;padding-right: 4%;color: #0f61b7;">Start quiz</button>
+										<br></br>
+									</div>
+									<div class="col-sm-6">
+										<Span style=" font-size: 12px;font-weight: bold;color: #2d2d2d80;float: right;padding-right:8%">Not Attempted</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+			    	 <div class="cat_card">
+							 <div class="row">
+									<div class="cat_head">
+										<p>Installation</p>
+										<img src="img/lessons@2x.png"></img>
+										<h4>14 Sub-procedures</h4>
+										<br></br>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-6">
+										<button class="button_blue" style="margin-left:8%;  font-size: 12px;  text-align: center;padding-top: 2%;padding-bottom: 2%;padding-left: 4%;padding-right: 4%;color: #0f61b7;">Start quiz</button>
+										<br></br>
+									</div>
+									<div class="col-sm-6">
+										<Span style=" font-size: 12px;font-weight: bold;color: #2d2d2d80;float: right;padding-right:8%">Not Attempted</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+			    	 <div class="cat_card">
+							 <div class="row">
+									<div class="cat_head">
+										<p>Maintenance</p>
+										<img src="img/lessons@2x.png"></img>
+										<h4>14 Sub-procedures</h4>
+										<br></br>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-6">
+										<button class="button_blue" style="margin-left:8%;  font-size: 12px;  text-align: center;padding-top: 2%;padding-bottom: 2%;padding-left: 4%;padding-right: 4%;color: #0f61b7;">Start quiz</button>
+										<br></br>
+									</div>
+									<div class="col-sm-6">
+										<Span style=" font-size: 12px;font-weight: bold;color: #2d2d2d80;float: right;padding-right:8%">Not Attempted</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+			    	 <div class="cat_card">
+							 <div class="row">
+									<div class="cat_head">
+										<p>Inspection</p>
+										<img src="img/lessons@2x.png"></img>
+										<h4>14 Sub-procedures</h4>
+										<br></br>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-6">
+										<button class="button_blue" style="margin-left:8%;  font-size: 12px;  text-align: center;padding-top: 2%;padding-bottom: 2%;padding-left: 4%;padding-right: 4%;color: #0f61b7;">Start quiz</button>
+										<br></br>
+									</div>
+									<div class="col-sm-6">
+										<Span style=" font-size: 12px;font-weight: bold;color: #2d2d2d80;float: right;padding-right:8%">Not Attempted</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+				</div>
+				<div class="col-sm-3">
+				</div>
+			</div>
+		</div>
+		<br></br>
+		<br></br>
+		<div class="row">
+			 <div class="category">
+				 	<div class="col-sm-3">
+			    	 <div class="cat_card">
+							 <div class="row">
+									<div class="cat_head">
+										<p>Cleaning</p>
+									  <img src="img/medal-white.png" style="margin-right:none"></img>
+										<img src="img/medal-white.png" style="margin-right:none"></img>
+										<img src="img/medal-earned.png"></img>
+										<h4>14 Sub-procedures</h4>
+										<br></br>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-6">
+										<button class="button_blue" style="margin-left:8%;  font-size: 12px;  text-align: center;padding-top: 2%;padding-bottom: 2%;padding-left: 4%;padding-right: 4%;color: #0f61b7;">Retry quiz</button>
+										<br></br>
+									</div>
+									<div class="col-sm-6">
+										<span style=" font-size: 12px;font-weight: bold;color: #0fadb7;float: right;padding-right:8%;padding-top:1%;">Scored: 60%</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+			    	 <div class="cat_card">
+							 <div class="row">
+									<div class="cat_head">
+										<p>Dismantle</p>
+										<img src="img/lessons@2x.png"></img>
+										<h4>14 Sub-procedures</h4>
+										<br></br>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-6">
+										<a href="quiztry"><button class="button_blue" style="margin-left:8%;  font-size: 12px;  text-align: center;padding-top: 2%;padding-bottom: 2%;padding-left: 4%;padding-right: 4%;color: #0f61b7;">Start quiz</button></a>
+										<br></br>
+									</div>
+									<div class="col-sm-6">
+										<Span style=" font-size: 12px;font-weight: bold;color: #2d2d2d80;float: right;padding-right:8%">Not Attempted</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+			    	 <div class="cat_card">
+							 <div class="row">
+									<div class="cat_head">
+										<p>Adjustment</p>
+										<img src="img/lessons@2x.png"></img>
+										<h4>14 Sub-procedures</h4>
+										<br></br>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-6">
+										<button class="button_blue" style="margin-left:8%;  font-size: 12px;  text-align: center;padding-top: 2%;padding-bottom: 2%;padding-left: 4%;padding-right: 4%;color: #0f61b7;">Start quiz</button>
+										<br></br>
+									</div>
+									<div class="col-sm-6">
+										<Span style=" font-size: 12px;font-weight: bold;color: #2d2d2d80;float: right;padding-right:8%">Not Attempted</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+			    	 <div class="cat_card">
+							 <div class="row">
+									<div class="cat_head">
+										<p>Windings</p>
+										<img src="img/lessons@2x.png"></img>
+										<h4>14 Sub-procedures</h4>
+										<br></br>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-6">
+										<button class="button_blue" style="margin-left:8%;  font-size: 12px;  text-align: center;padding-top: 2%;padding-bottom: 2%;padding-left: 4%;padding-right: 4%;color: #0f61b7;">Start quiz</button>
+										<br></br>
+									</div>
+									<div class="col-sm-6">
+										<Span style=" font-size: 12px;font-weight: bold;color: #2d2d2d80;float: right;padding-right:8%">Not Attempted</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+				</div>
+				<div class="col-sm-3">
+				</div>
+			</div>
+		</div>
+		<br></br>
+		<br></br>
+		<br></br>
+
+		<div class="row" style="white-space:nowrap;">
+		 <div class="before_footer" style="margin-top:0;background-color:#002b58;padding:0">
+			 <div class="row">
+				 <div class="col-sm-2">
+					 <img src="img/header.png" style="padding-left:40%;padding-top:8%"></img>
+				 </div>
+				 <div class="col-sm-6">
+					 <div class="row">
+						 <div class="low_foot" style="float:left;">
+							 <ul>
+								 <li><a>Home</a></li>
+								 <li><a>About us</a></li>
+								 <li><a>Attempt quiz</a></li>
+								 <li><a>Contact-Us</a></li>
+								 <li><a>Privacy Policy</a></li>
+							 </ul>
+						 </div>
+						 </div>
+					 </div>
+					 <div class="col-sm-4">
+						 <Div class="row">
+							 <div class="low_foot" style="float:left;">
+								 <ul>
+									 <li><a><img src="img/instagram.png"></a></li>
+									 <li><a><img src="img/linkedin.png"></a></li>
+									 <li><a><img src="img/fb.png"></a></li>
+									 <li><a><img src="img/gplus.png"></a></li>
+									 <li><a><img src="img/twitter.png"></a></li>
+								 </ul>
+							 </div>
+							 </div>
+						 </div>
+				 </div>
+				 <div class="row">
+					 <div class="right">
+						 <div class="col-sm-6">
+							 <p>Copyright © 2018 - www.irctc.co.in. All Rights Reserved</p>
+						 </div>
+						 <div class="col-sm-6">
+							 <p>Design and Developed by Xelpmoc</p>
+						 </div>
+					 </div>
+				 </div>
+			 </div>
+		 </div>
+		 <script>
+		 $("a[href*='" + location.pathname + "']").addClass("current");
+		</script>
+		</html>
+	</body>
+	</html>

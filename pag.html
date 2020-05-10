@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="pagination.css" rel="stylesheet">
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://www.solodev.com/assets/pagination/jquery.twbsPagination.js"></script>
+
+    <script type="text/javascript">
+    $(document).ready(function() {
+    $('#pagination-demo').twbsPagination({
+    totalPages: 5,
+    // the current page that show on start
+    startPage: 1,
+    // maximum visible pages
+    visiblePages: 5,
+    initiateStartPageClick: true,
+    // template for pagination links
+    href: false,
+    // variable name in href template for page number
+    hrefVariable: '{{number}}',
+    // Text labels
+    first: 'First',
+    prev: 'Previous',
+    next: 'Next',
+    last: 'Last',
+    // carousel-style pagination
+    loop: false,
+    // callback function
+    onPageClick: function (event, page) {
+       $('.page-active').removeClass('page-active');
+      $('#page'+page).addClass('page-active');
+    },
+    // pagination Classes
+    paginationClass: 'pagination',
+    nextClass: 'next',
+    prevClass: 'prev',
+    lastClass: 'last',
+    firstClass: 'first',
+    pageClass: 'page',
+    activeClass: 'active',
+    disabledClass: 'disabled'
+    });
+    });
+    </script>
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+       <div class="jumbotron page" id="page1">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4">
+                <img src="img/clean.png"></img>
+                <h5 style="margin-left:5%;border-left:2px solid #0f61b7;color:#0f61b7;font-size:14px;font-weight:bold;padding-left:4%">Cleaning</h5>
+                <p style="margin-left:5%;  font-size: 16px;font-weight: bold;">High pressure cleaning of all parts</p>
+                <img src="img/steps.png" style="margin-left:5%"></img>
+                <h4 style="font-size:10px;font-weight:bold;float:right;padding-right:70%">04 steps</h4>
+              </div>
+              <div class="col-lg-4">
+                <img src="img/wind.png"></img>
+                <h5 style="margin-left:5%;border-left:2px solid #0f61b7;color:#0f61b7;font-size:14px;font-weight:bold;padding-left:4%">Winding</h5>
+                <p style="margin-left:5%;  font-size: 16px;font-weight: bold;">Winding motor through all parts</p>
+                <img src="img/steps.png" style="margin-left:5%"></img>
+                <h4 style="font-size:10px;font-weight:bold;float:right;padding-right:70%">04 steps</h4>
+
+              </div>
+              <div class="col-lg-4">
+                <img src="img/hor_nut.png"></img>
+                <h5 style="margin-left:5%;border-left:2px solid #0f61b7;color:#0f61b7;font-size:14px;font-weight:bold;padding-left:4%">Inspection</h5>
+                <p style="margin-left:5%;  font-size: 16px;font-weight: bold;">Inspection done visually to check all parts of motors</p>
+                <img src="img/steps.png" style="margin-left:5%"></img>
+                <h4 style="font-size:10px;font-weight:bold;float:right;padding-right:70%">04 steps</h4>
+
+              </div>
+            </div>
+          </div>
+       </div>
+       <div class="jumbotron page" id="page2">
+          <h1 class="display-3">Not Another Jumbotron</h1>
+          <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
+       </div>
+       <div class="jumbotron page" id="page3">
+          <h1 class="display-3">Data. Data. Data.</h1>
+          <p>This example is a quick exercise to illustrate how the default responsive navbar works. It's placed within a <code>.container</code> to limit its width and will scroll with the rest of the page's content.</p>
+          <p>
+             <a class="btn btn-lg btn-primary" href="../../components/navbar" role="button">View navbar docs »</a>
+          </p>
+       </div>
+       <div class="jumbotron page" id="page4">
+          <h1 style="-webkit-user-select: auto;">Buy Now!</h1>
+          <p class="lead" style="-webkit-user-select: auto;">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.</p>
+          <p style="-webkit-user-select: auto;"><a class="btn btn-lg btn-success" href="#" role="button" style="-webkit-user-select: auto;">Get started today</a></p>
+       </div>
+       <div class="jumbotron page" id="page5">
+          <h1 class="cover-heading">Cover your page.</h1>
+          <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+          <p class="lead">
+             <a href="#" class="btn btn-lg btn-primary">Learn more</a>
+          </p>
+       </div>
+       <ul id="pagination-demo" class="pagination-lg pull-right"></ul>
+    </div>
+
+  </body>
+</html>

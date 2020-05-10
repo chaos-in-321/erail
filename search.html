@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="indianrail.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+    crossorigin="anonymous">
+  <link href="pagination.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="https://www.solodev.com/assets/pagination/jquery.twbsPagination.js"></script>
+
+  <script type="text/javascript">
+  $(document).ready(function() {
+  $('#pagination-demo').twbsPagination({
+  totalPages: 2,
+  // the current page that show on start
+  startPage: 1,
+  // maximum visible pages
+  visiblePages: 2,
+  initiateStartPageClick: true,
+  // template for pagination links
+  href: false,
+  // variable name in href template for page number
+  hrefVariable: '{{number}}',
+  // Text labels
+
+  // carousel-style pagination
+  loop: false,
+  // callback function
+  onPageClick: function (event, page) {
+     $('.page-active').removeClass('page-active');
+    $('#page'+page).addClass('page-active');
+  },
+  // pagination Classes
+  paginationClass: 'pagination',
+  pageClass: 'page',
+  activeClass: 'active',
+  disabledClass: 'disabled'
+  });
+  });
+  </script>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+			<div class="header" style="background-color:#0f61b7;padding-right:1%;padding-top:1%;padding-bottom:1%;">
+				<div class="float-left" style="width:auto;padding-top:1%"><img src="img/header.png"></img>
+				</div>
+
+					<div class="nav">
+						<div class="float-right" style="color:#ffff">
+							<ul style="margin-left:30%">
+								<li style="padding:none"><input type="text" style="font-family: FontAwesome, Arial; font-style: normal ;color: white;border-radius: 3px;border: solid 1px #ffffff;margin-left;padding-right:6%;padding-left: 6%;padding-top: 1%;padding-bottom: 1%;background-color:transparent;" placeholder="   &#xf002; Search Blog" ></input></li>
+								<li style="padding-left:1%"><img src="img/home.png" style="padding-right:1%;padding-left:1%"></img><a href="index" class="current">Home</a></li>
+								<li style="padding-left:1%"><img src="img/browse.png" style="padding-right:1%;padding-left:1%"></img><a>Browse All</a></li>
+								<li style="padding-left:1%"><img src="img/quiz.png" style="padding-right:1%;padding-left:1%"></img><a href="attemptquiz">Attempt quiz</a></li>
+								<li style="padding-left:9%"><a class="current" style="font-size:18px" href="profile">Ranjit</a><img src="img/avatar-62.png" style="padding-right:1%;padding-left:1%;height:36px;width:auto;"></img></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+  </div>
+  <div class="row">
+    <div class="bread">
+      <span>Home</span>
+      <span>
+        <img src="img/right-arrow.png">
+      </span>
+      <span>Search Results</span>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-3">
+      <div class="instructions_text">
+        <h1>
+          Filter Videos
+        </h1>
+        <div class="panel-group">
+          <div class="panel panel-default" style="border-bottom:grey 1px black;border-top:none;border-left:none;border-right:none">
+            <div class="panel-heading" style="background-image:none;background-color:white">
+              <h4 class="panel-title" data-toggle="collapse" href="#collapse1" style="  font-size: 14px;font-weight: bold;color: black;margin-top: 0%;padding-top:2%;padding-bottom:2%">
+                <a>Motor type
+                  <i class="fa fa-angle-down" style="float:right;margin-top:0.7%"></i>
+                  <button class="btn-link" style="float:right;color: #d70000;margin-right:2%">Clear</button>
+                </a>
+              </h4>
+            </div>
+            <div id="collapse1" class="panel-collapse collapse in">
+              <ul class="list-group">
+                <label class="container" style="padding-left:4%">
+                  <p style="margin-left:15%;margin-top:2%;color: #2d2d2d;font-size:14px;font-weight:bold">DC series motor</p>
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container" style="padding-left:4%">
+                  <p style="margin-left:15%;margin-top:2%;color: #2d2d2d;font-size:14px;font-weight:bold">DC shunt motor</p>
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container" style="padding-left:4%">
+                  <p style="margin-left:15%;margin-top:2%;color: #2d2d2d;font-size:14px;font-weight:bold">Compound motors</p>
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container" style="padding-left:4%">
+                  <p style="margin-left:15%;margin-top:2%;color: #2d2d2d;font-size:14px;font-weight:bold">AC series motor</p>
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container" style="padding-left:4%">
+                  <p style="margin-left:15%;margin-top:2%;color: #2d2d2d;font-size:14px;font-weight:bold">3 phase induction motor</p>
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="panel-group">
+          <div class="panel panel-default" style="border-bottom:grey 1px black;border-top:none;border-left:none;border-right:none">
+            <div class="panel-heading" style="background-image:none;background-color:white">
+              <h4 class="panel-title" data-toggle="collapse" href="#collapse2" style="  font-size: 14px;font-weight: bold;color: black;margin-top: 0%;padding-top:2%;padding-bottom:2%">
+                <a>Procedures
+                  <i class="fa fa-angle-down" style="float:right;margin-top:0.7%"></i>
+                  <button class="btn-link" style="float:right;color: #d70000;margin-right:2%">Clear</button>
+                </a>
+              </h4>
+            </div>
+            <div id="collapse2" class="panel-collapse collapse in">
+              <ul class="list-group">
+                <label class="container" style="padding-left:4%" onclick="filterSelection('all')">
+                  <p style="margin-left:15%;margin-top:2%;color: #2d2d2d;font-size:14px;font-weight:bold" >Show All</p>
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container" style="padding-left:4%" onclick="filterSelection('cleaning')">
+                  <p style="margin-left:15%;margin-top:2%;color: #2d2d2d;font-size:14px;font-weight:bold">Cleaning</p>
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container" style="padding-left:4%" onclick="filterSelection('dismantling')">
+                  <p style="margin-left:15%;margin-top:2%;color: #2d2d2d;font-size:14px;font-weight:bold">Dismantling</p>
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container" style="padding-left:4%" onclick="filterSelection('assembling')">
+                  <p style="margin-left:15%;margin-top:2%;color: #2d2d2d;font-size:14px;font-weight:bold" >Assembling</p>
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container" style="padding-left:4%">
+                  <p style="margin-left:15%;margin-top:2%;color: #2d2d2d;font-size:14px;font-weight:bold">Inspection</p>
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="panel-group">
+          <div class="panel panel-default" style="border-bottom:grey 1px black;border-top:none;border-left:none;border-right:none">
+            <div class="panel-heading" style="background-image:none;background-color:white">
+              <h4 class="panel-title" data-toggle="collapse" href="#collapse3" style="  font-size: 14px;font-weight: bold;color: black;margin-top: 0%;padding-top:2%;padding-bottom:2%">
+                <a>Maintenance Cycle
+                  <i class="fa fa-angle-down" style="float:right;margin-top:0.7%"></i>
+                  <button class="btn-link" style="float:right;color: #d70000;margin-right:2%">Clear</button>
+                </a>
+              </h4>
+            </div>
+            <div id="collapse3" class="panel-collapse collapse">
+              <ul class="list-group">
+                <label class="container" style="padding-left:4%">
+                  <p style="margin-left:15%;margin-top:2%;color: #2d2d2d;font-size:14px;font-weight:bold">Installation</p>
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container" style="padding-left:4%">
+                  <p style="margin-left:15%;margin-top:2%;color: #2d2d2d;font-size:14px;font-weight:bold">Cleaning</p>
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container" style="padding-left:4%">
+                  <p style="margin-left:15%;margin-top:2%;color: #2d2d2d;font-size:14px;font-weight:bold">Dismantling</p>
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container" style="padding-left:4%">
+                  <p style="margin-left:15%;margin-top:2%;color: #2d2d2d;font-size:14px;font-weight:bold">Assembling</p>
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container" style="padding-left:4%">
+                  <p style="margin-left:15%;margin-top:2%;color: #2d2d2d;font-size:14px;font-weight:bold">Inspection</p>
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="panel-group">
+          <div class="panel panel-default" style="border-bottom:grey 1px black;border-top:none;border-left:none;border-right:none">
+            <div class="panel-heading" style="background-image:none;background-color:white">
+              <h4 class="panel-title" data-toggle="collapse" href="#collapse4" style="  font-size: 14px;font-weight: bold;color: black;margin-top: 0%;padding-top:2%;padding-bottom:2%">
+                <a>Steps
+                  <i class="fa fa-angle-down" style="float:right;margin-top:0.7%"></i>
+                  <button class="btn-link" style="float:right;color: #d70000;margin-right:2%">Clear</button>
+                </a>
+              </h4>
+            </div>
+            <div id="collapse4" class="panel-collapse collapse">
+              <ul class="list-group">
+                <label class="container" style="padding-left:4%">
+                  <p style="margin-left:15%;margin-top:2%;color: #2d2d2d;font-size:14px;font-weight:bold">Installation</p>
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container" style="padding-left:4%">
+                  <p style="margin-left:15%;margin-top:2%;color: #2d2d2d;font-size:14px;font-weight:bold">Cleaning</p>
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container" style="padding-left:4%">
+                  <p style="margin-left:15%;margin-top:2%;color: #2d2d2d;font-size:14px;font-weight:bold">Dismantling</p>
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container" style="padding-left:4%">
+                  <p style="margin-left:15%;margin-top:2%;color: #2d2d2d;font-size:14px;font-weight:bold">Assembling</p>
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container" style="padding-left:4%">
+                  <p style="margin-left:15%;margin-top:2%;color: #2d2d2d;font-size:14px;font-weight:bold">Inspection</p>
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-9">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="instructions_text" style="margin-left:16%;padding-left: 0;padding-top:0">
+            <h1>
+
+            </h1>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" id="menu3" data-toggle="dropdown" aria-expanded="false" style="float:right;margin-right:25%;margin-top:4%;background:transparent;border:none;color:grey">Relevance
+                <span class="caret"></span></button>
+            <ul class="dropdown-menu test" role="menu" aria-labelledby="menu3" style="float:right;margin-left:47%;margin-top:10%">
+              <li><input type="checkbox" style="margin-left:4%;margin-right:4%">Sort by latest date</a></li>
+              <li><input type="checkbox" style="margin-left:4%;margin-right:4%">Sort by steps</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="tools">
+        <div class="container page" id="page1">
+          <div class="filterDiv cleaning"><div class="col-lg-4">
+            <img src="img1/Cleaning_Video_1.jpg" style="height:130px;width:250px"></img>
+            <h5 style="margin-left:5%;border-left:2px solid #0f61b7;color:#0f61b7;font-size:14px;font-weight:bold;padding-left:4%">Cleaning</h5>
+            <p style="margin-left:5%;  font-size: 16px;font-weight: bold;">High pressure cleaning of all parts</p>
+            <img src="img/steps.png" style="margin-left:5%"></img>
+            <h4 style="font-size:10px;font-weight:bold;float:right;padding-right:70%">04 steps</h4>
+          </div></div>
+          <div class="filterDiv cleaning"><div class="col-lg-4">
+            <img src="img1/Cleaning_Video_2.jpg" style="height:130px;width:250px"></img>
+            <h5 style="margin-left:5%;border-left:2px solid #0f61b7;color:#0f61b7;font-size:14px;font-weight:bold;padding-left:4%">Cleaning</h5>
+            <p style="margin-left:5%;  font-size: 16px;font-weight: bold;">Clean with Agents & Solvents</p>
+            <img src="img/steps.png" style="margin-left:5%"></img>
+            <h4 style="font-size:10px;font-weight:bold;float:right;padding-right:70%">04 steps</h4>
+          </div></div>
+          <div class="filterDiv cleaning"><div class="col-lg-4">
+            <img src="img1/Cleaning_Video_3.jpg" style="height:130px;width:250px"></img>
+            <h5 style="margin-left:5%;border-left:2px solid #0f61b7;color:#0f61b7;font-size:14px;font-weight:bold;padding-left:4%">Cleaning</h5>
+            <p style="margin-left:5%;  font-size: 16px;font-weight: bold;">Check for Deformity of Parts</p>
+            <img src="img/steps.png" style="margin-left:5%"></img>
+            <h4 style="font-size:10px;font-weight:bold;float:right;padding-right:70%">04 steps</h4>
+          </div></div>
+          <div class="filterDiv dismantling"><div class="col-lg-4">
+            <img src="img1/Dismantle_Video_1.jpg" style="height:130px;width:250px"></img>
+            <h5 style="margin-left:5%;border-left:2px solid #0f61b7;color:#0f61b7;font-size:14px;font-weight:bold;padding-left:4%">Dismantling</h5>
+            <p style="margin-left:5%;  font-size: 16px;font-weight: bold;">Inspection of Motor</p>
+            <img src="img/steps.png" style="margin-left:5%"></img>
+            <h4 style="font-size:10px;font-weight:bold;float:right;padding-right:70%">04 steps</h4>
+          </div></div>
+          <div class="filterDiv dismantling"><div class="col-lg-4">
+            <img src="img1/Dismantle_Video_2.jpg" style="height:130px;width:250px"></img>
+            <h5 style="margin-left:5%;border-left:2px solid #0f61b7;color:#0f61b7;font-size:14px;font-weight:bold;padding-left:4%">Dismantling</h5>
+            <p style="margin-left:5%;  font-size: 16px;font-weight: bold;">Remove DE Mobile & Fixed Labyrinth</p>
+            <img src="img/steps.png" style="margin-left:5%"></img>
+            <h4 style="font-size:10px;font-weight:bold;float:right;padding-right:70%">04 steps</h4>
+          </div></div>
+          <div class="filterDiv dismantling"><div class="col-lg-4">
+            <img src="img1/Dismantle_Video_3.jpg" style="height:130px;width:250px"></img>
+            <h5 style="margin-left:5%;border-left:2px solid #0f61b7;color:#0f61b7;font-size:14px;font-weight:bold;padding-left:4%">Dismantling</h5>
+            <a href="tutorial" style="color:#333"><p style="margin-left:5%;  font-size: 16px;font-weight: bold;">Remove NDE Bearing Cover & Speed Sensor</p></a>
+            <img src="img/steps.png" style="margin-left:5%"></img>
+            <h4 style="font-size:10px;font-weight:bold;float:right;padding-right:70%">04 steps</h4>
+          </div></div>
+          <div class="filterDiv dismantling"><div class="col-lg-4">
+            <img src="img1/Dismantle_Video_4.jpg" style="height:130px;width:250px"></img>
+            <h5 style="margin-left:5%;border-left:2px solid #0f61b7;color:#0f61b7;font-size:14px;font-weight:bold;padding-left:4%">Dismantling</h5>
+            <p style="margin-left:5%;  font-size: 16px;font-weight: bold;">Put TM in Vertical Position</p>
+            <img src="img/steps.png" style="margin-left:5%"></img>
+            <h4 style="font-size:10px;font-weight:bold;float:right;padding-right:70%">04 steps</h4>
+          </div></div>
+          <div class="filterDiv dismantling"><div class="col-lg-4">
+            <img src="img1/Dismantle_Video_5.jpg" style="height:130px;width:250px"></img>
+            <h5 style="margin-left:5%;border-left:2px solid #0f61b7;color:#0f61b7;font-size:14px;font-weight:bold;padding-left:4%">Dismantling</h5>
+            <p style="margin-left:5%;  font-size: 16px;font-weight: bold;">Remove DE End Shield</p>
+            <img src="img/steps.png" style="margin-left:5%"></img>
+            <h4 style="font-size:10px;font-weight:bold;float:right;padding-right:70%">04 steps</h4>
+          </div></div>
+          <div class="filterDiv dismantling"><div class="col-lg-4">
+            <img src="img1/Dismantle_Video_6.jpg" style="height:130px;width:250px"></img>
+            <h5 style="margin-left:5%;border-left:2px solid #0f61b7;color:#0f61b7;font-size:14px;font-weight:bold;padding-left:4%">Dismantling</h5>
+            <p style="margin-left:5%;  font-size: 16px;font-weight: bold;">Remove Rotor</p>
+            <img src="img/steps.png" style="margin-left:5%"></img>
+            <h4 style="font-size:10px;font-weight:bold;float:right;padding-right:70%">04 steps</h4>
+          </div></div>
+
+        </div>
+        <div class="container page" id="page2">
+          <div class="filterDiv assembling"><div class="col-lg-4">
+            <img src="img1/Assembly_Video_1.jpg" style="height:130px;width:250px"></img>
+            <h5 style="margin-left:5%;border-left:2px solid #0f61b7;color:#0f61b7;font-size:14px;font-weight:bold;padding-left:4%">Assembling</h5>
+            <p style="margin-left:5%;  font-size: 16px;font-weight: bold;">Place Stator on Assembly Stand</p>
+            <img src="img/steps.png" style="margin-left:5%"></img>
+            <h4 style="font-size:10px;font-weight:bold;float:right;padding-right:70%">04 steps</h4>
+          </div></div>
+          <div class="filterDiv assembling"><div class="col-lg-4">
+            <img src="img1/Assembly_Video_2.jpg" style="height:130px;width:250px"></img>
+            <h5 style="margin-left:5%;border-left:2px solid #0f61b7;color:#0f61b7;font-size:14px;font-weight:bold;padding-left:4%">Assembling</h5>
+            <p style="margin-left:5%;  font-size: 16px;font-weight: bold;">Fit NDE End Shield</p>
+            <img src="img/steps.png" style="margin-left:5%"></img>
+            <h4 style="font-size:10px;font-weight:bold;float:right;padding-right:70%">04 steps</h4>
+          </div></div>
+          <div class="filterDiv assembling"><div class="col-lg-4">
+            <img src="img1/Assembly_Video_3.jpg" style="height:130px;width:250px"></img>
+            <h5 style="margin-left:5%;border-left:2px solid #0f61b7;color:#0f61b7;font-size:14px;font-weight:bold;padding-left:4%">Assembling</h5>
+            <p style="margin-left:5%;  font-size: 16px;font-weight: bold;">Fit NDE Fixed Labyrinth</p>
+            <img src="img/steps.png" style="margin-left:5%"></img>
+            <h4 style="font-size:10px;font-weight:bold;float:right;padding-right:70%">04 steps</h4>
+          </div></div>
+          <div class="filterDiv assembling"><div class="col-lg-4">
+            <img src="img1/Assembly_Video_4.jpg" style="height:130px;width:250px"></img>
+            <h5 style="margin-left:5%;border-left:2px solid #0f61b7;color:#0f61b7;font-size:14px;font-weight:bold;padding-left:4%">Assembling</h5>
+            <p style="margin-left:5%;  font-size: 16px;font-weight: bold;">Fit Rotor in Stator</p>
+            <img src="img/steps.png" style="margin-left:5%"></img>
+            <h4 style="font-size:10px;font-weight:bold;float:right;padding-right:70%">04 steps</h4>
+          </div></div>
+          <div class="filterDiv assembling"><div class="col-lg-4">
+            <img src="img1/Assembly_Video_5.jpg" style="height:130px;width:250px"></img>
+            <h5 style="margin-left:5%;border-left:2px solid #0f61b7;color:#0f61b7;font-size:14px;font-weight:bold;padding-left:4%">Assembling</h5>
+            <p style="margin-left:5%;  font-size: 16px;font-weight: bold;">Fit DE End Shield</p>
+            <img src="img/steps.png" style="margin-left:5%"></img>
+            <h4 style="font-size:10px;font-weight:bold;float:right;padding-right:70%">04 steps</h4>
+          </div></div>
+          <div class="filterDiv assembling"><div class="col-lg-4">
+            <img src="img1/Assembly_Video_6.jpg" style="height:130px;width:250px"></img>
+            <h5 style="margin-left:5%;border-left:2px solid #0f61b7;color:#0f61b7;font-size:14px;font-weight:bold;padding-left:4%">Assembling</h5>
+            <p style="margin-left:5%;  font-size: 16px;font-weight: bold;">Put TM in Horizontal Position</p>
+            <img src="img/steps.png" style="margin-left:5%"></img>
+            <h4 style="font-size:10px;font-weight:bold;float:right;padding-right:70%">04 steps</h4>
+          </div></div>
+          <div class="filterDiv assembling"><div class="col-lg-4">
+            <img src="img1/Assembly_Video_7.jpg" style="height:130px;width:250px"></img>
+            <h5 style="margin-left:5%;border-left:2px solid #0f61b7;color:#0f61b7;font-size:14px;font-weight:bold;padding-left:4%">Assembling</h5>
+            <p style="margin-left:5%;  font-size: 16px;font-weight: bold;">Fit NDE Mobile Labyrinth & Speed Sensor</p>
+            <img src="img/steps.png" style="margin-left:5%"></img>
+            <h4 style="font-size:10px;font-weight:bold;float:right;padding-right:70%">04 steps</h4>
+          </div></div>
+          <div class="filterDiv assembling"><div class="col-lg-4">
+            <img src="img1/Assembly_Video_8.jpg" style="height:130px;width:250px"></img>
+            <h5 style="margin-left:5%;border-left:2px solid #0f61b7;color:#0f61b7;font-size:14px;font-weight:bold;padding-left:4%">Assembling</h5>
+            <p style="margin-left:5%;  font-size: 16px;font-weight: bold;">Fit DE Fixed & Mobile Labyrinth</p>
+            <img src="img/steps.png" style="margin-left:5%"></img>
+            <h4 style="font-size:10px;font-weight:bold;float:right;padding-right:70%">04 steps</h4>
+          </div></div>
+          <div class="filterDiv assembling"><div class="col-lg-4">
+            <img src="img1/Assembly_Video_9.jpg" style="height:130px;width:250px"></img>
+            <h5 style="margin-left:5%;border-left:2px solid #0f61b7;color:#0f61b7;font-size:14px;font-weight:bold;padding-left:4%">Assembling</h5>
+            <p style="margin-left:5%;  font-size: 16px;font-weight: bold;">Grease DE & NDE ends</p>
+            <img src="img/steps.png" style="margin-left:5%"></img>
+            <h4 style="font-size:10px;font-weight:bold;float:right;padding-right:70%">04 steps</h4>
+          </div></div>
+
+        </div>
+      </div>
+    </div>
+       <ul id="pagination-demo" style="margin-left:25%"></ul>
+  </div>
+  <div class="row" style="white-space:nowrap;">
+    <div class="before_footer" style="margin-top:0;background-color:#002b58;padding:0">
+      <div class="row">
+        <div class="col-lg-2">
+          <img src="img/header.png" style="padding-left:40%;padding-top:8%"></img>
+        </div>
+        <div class="col-lg-6">
+          <div class="row">
+            <div class="low_foot" style="float:left;">
+              <ul>
+                <li>
+                  <a>Home</a>
+                </li>
+                <li>
+                  <a>About us</a>
+                </li>
+                <li>
+                  <a>Attempt quiz</a>
+                </li>
+                <li>
+                  <a>Contact-Us</a>
+                </li>
+                <li>
+                  <a>Privacy Policy</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="row">
+            <div class="low_foot" style="float:left;">
+              <ul>
+                <li>
+                  <a>
+                    <img src="img/instagram.png">
+                  </a>
+                </li>
+                <li>
+                  <a>
+                    <img src="img/linkedin.png">
+                  </a>
+                </li>
+                <li>
+                  <a>
+                    <img src="img/fb.png">
+                  </a>
+                </li>
+                <li>
+                  <a>
+                    <img src="img/gplus.png">
+                  </a>
+                </li>
+                <li>
+                  <a>
+                    <img src="img/twitter.png">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="right">
+          <div class="col-lg-6">
+            <p>Copyright © 2018 - www.irctc.co.in. All Rights Reserved</p>
+          </div>
+          <div class="col-lg-6">
+            <p>Design and Developed by Xelpmoc</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+filterSelection("cleaning")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current button (highlight it)
+
+
+</script>
+</body>
+
+</html>

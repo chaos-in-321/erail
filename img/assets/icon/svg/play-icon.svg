@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="9px" height="12px" viewBox="0 0 9 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>play-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="All-final-pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tutorial_page" transform="translate(-137.000000, -220.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="Group-18" transform="translate(0.000000, 130.000000)">
+                <g transform="translate(120.000000, 20.000000)" id="Filter-Heading-Copy-3">
+                    <g>
+                        <g transform="translate(0.000000, 51.000000)">
+                            <path d="M17,19.3106053 L17,30.6877748 C17,30.9277678 17.2284933,31.0777635 17.411288,30.957767 L25.8655405,25.2691822 C26.0448198,25.1491857 26.0448198,24.8529443 25.8655405,24.7329478 L17.411288,19.044363 C17.2284933,18.9206166 17,19.0706123 17,19.3106053 Z" id="play-icon"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

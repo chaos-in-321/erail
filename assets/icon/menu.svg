@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="16px" viewBox="0 0 24 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="All-final-pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tutorial_page" transform="translate(-520.000000, -632.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="Group-15" transform="translate(500.000000, 160.000000)">
+                <g id="Group-16" transform="translate(0.000000, 450.000000)">
+                    <g id="Menu" transform="translate(20.000000, 22.000000)">
+                        <path d="M0,16 L24,16 L24,13.333375 L0,13.333375 L0,16 Z M0,9.333375 L24,9.333375 L24,6.6666875 L0,6.6666875 L0,9.333375 Z M0,0 L0,2.6665625 L24,2.6665625 L24,0 L0,0 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="6px" viewBox="0 0 11 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow-up</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="All-final-pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tutorial_page" transform="translate(-388.000000, -224.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="Group-18" transform="translate(0.000000, 130.000000)">
+                <g transform="translate(120.000000, 20.000000)" id="Filter-Heading-Copy-3">
+                    <g>
+                        <g transform="translate(0.000000, 51.000000)">
+                            <g id="ios-arrow-down" transform="translate(268.000000, 23.000000)">
+                                <path d="M5.5,4.17046632 L9.6577381,0.219170984 C9.96547619,-0.0730569948 10.4630952,-0.0730569948 10.7675595,0.219170984 C11.0720238,0.511398964 11.0720238,0.983937824 10.7675595,1.2761658 L6.05654762,5.75284974 C5.75863095,6.0357513 5.28065476,6.04196891 4.97291667,5.7746114 L0.229166667,1.27927461 C0.075297619,1.13316062 0,0.940414508 0,0.750777202 C0,0.561139896 0.075297619,0.368393782 0.229166667,0.222279793 C0.536904762,-0.0699481865 1.03452381,-0.0699481865 1.3389881,0.222279793 L5.5,4.17046632 Z" id="arrow-up" transform="translate(5.497954, 2.985106) scale(1, -1) translate(-5.497954, -2.985106) "></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="24px" viewBox="0 0 31 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>md-mail</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/-mail" transform="translate(-7.000000, -10.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="md-mail" transform="translate(7.000000, 10.000000)">
+                <path d="M28.0475268,0 L2.95247321,0 C1.32850223,0 0,1.30895455 0,2.90911364 L0,21.0908864 C0,22.6910455 1.32850223,24 2.95247321,24 L28.0475268,24 C29.6714978,24 31,22.6910455 31,21.0908864 L31,2.90911364 C31,1.30895455 29.6714978,0 28.0475268,0 Z M27.6785714,6.18184091 L15.5,14.1818182 L3.32142857,6.18184091 L3.32142857,3.27272727 L15.5,11.2727045 L27.6785714,3.27272727 L27.6785714,6.18184091 Z" id="mail"></path>
+            </g>
+        </g>
+    </g>
+</svg>

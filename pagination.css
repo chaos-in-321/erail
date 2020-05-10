@@ -1,0 +1,22 @@
+.container {
+  margin-top: 20px;
+}
+.page {
+  display: none;
+}
+.page-active {
+  display: block;
+}
+
+.pagination {
+  display:inline-block;
+  padding:5px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+}
+.filterDiv{
+  display: none;
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>tick</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="All-final-pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Quiz-Completed-review" transform="translate(-506.000000, -472.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="Group-21" transform="translate(0.000000, 225.000000)">
+                <g id="Group-19">
+                    <g id="Group-5" transform="translate(120.000000, 225.000000)">
+                        <path d="M401.915458,23.4044876 L400.607745,22.0873257 C400.555734,22.0291086 400.474002,22 400.3997,22 C400.317968,22 400.243666,22.0291086 400.191655,22.0873257 L391.126828,31.0309278 L387.827826,27.7998787 C387.768384,27.7416616 387.694082,27.7125531 387.61978,27.7125531 C387.545479,27.7125531 387.471177,27.7416616 387.411735,27.7998787 L386.089162,29.0952092 C385.970279,29.2116434 385.970279,29.3935719 386.089162,29.5100061 L390.250066,33.5852032 C390.517553,33.8471801 390.844481,34 391.119398,34 C391.513198,34 391.854986,33.7161916 391.981299,33.5997574 L391.98873,33.5997574 L401.922888,23.8192844 C402.02691,23.6955731 402.02691,23.5136446 401.915458,23.4044876 Z" id="tick"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

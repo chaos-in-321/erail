@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="6px" height="10px" viewBox="0 0 6 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="All-final-pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tutorial_page" transform="translate(-173.000000, -100.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="Group-8" transform="translate(0.000000, 80.000000)">
+                <g id="Stacked-Group" transform="translate(120.000000, 16.000000)">
+                    <path d="M57.1912752,8.99813919 L53.2202646,5.2169706 C52.9265785,4.93710458 52.9265785,4.48455527 53.2202646,4.20766654 C53.5139506,3.93077782 53.9888473,3.93077782 54.2825333,4.20766654 L58.7815541,8.49199851 C59.0658672,8.76293264 59.0721159,9.19761816 58.8034243,9.47748418 L54.2856577,13.7915891 C54.1388146,13.9315221 53.9451068,14 53.7545233,14 C53.5639398,14 53.3702319,13.9315221 53.2233889,13.7915891 C52.9297028,13.5117231 52.9297028,13.0591738 53.2233889,12.7822851 L57.1912752,8.99813919 Z" id="arrow"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
